@@ -1,5 +1,5 @@
 apt update && apt full-upgrade -y
-apt install nano unzip wget sudo curl -y
+apt install nano git unzip wget sudo curl -y
 
 sudo apt-get install apache2 -y
 sudo apt install mariadb-server -y

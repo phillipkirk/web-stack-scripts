@@ -1,5 +1,5 @@
 apt update && apt full-upgrade -y
-apt install nano unzip wget sudo curl -y
+apt install nano git unzip wget sudo curl -y
 sudo wget -O - https://repo.litespeed.sh | sudo bash
 sudo apt update -y
 sudo apt-get install openlitespeed -y
