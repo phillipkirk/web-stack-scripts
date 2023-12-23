@@ -17,7 +17,7 @@ sudo mv phpmyadmin/config.sample.inc.php phpmyadmin/config.inc.php
 sudo mv phpmyadmin/* .
 sudo rm -rf phpmyadmin
 sudo service postgresql restart
-
+sudo apt install python3 python3-pip -y
 
 openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 \
   -nodes -keyout server.key -out server.crt -subj "/CN=localhost" \

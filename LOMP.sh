@@ -21,7 +21,7 @@ sudo mv phpmyadmin/* .
 sudo rm -rf phpmyadmin
 sudo service mariadb restart
 mysql_secure_installation
-
+sudo apt install python3 python3-pip -y
 cat /usr/local/lsws/adminpasswd
 
 openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 \

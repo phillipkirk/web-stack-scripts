@@ -1,6 +1,5 @@
 apt update && apt full-upgrade -y
 apt install nano git unzip wget sudo curl -y
-
 sudo apt-get install apache2 -y
 sudo apt install mariadb-server -y
 sudo apt-get install php php-mysql -y
@@ -18,6 +17,7 @@ sudo mv phpmyadmin/* .
 sudo rm -rf phpmyadmin
 sudo service mariadb restart
 mysql_secure_installation
+sudo apt install python3 python3-pip -y
 
 openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 \
   -nodes -keyout server.key -out server.crt -subj "/CN=localhost" \
